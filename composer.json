@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "files": ["config.php", "functions.php"],
+        "classmap": ["Db.php" , "DbHandler.php"]
+    },
+    "require": {
+        "illuminate/database": "^10.46"
+    }
+}
+
