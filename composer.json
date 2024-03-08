@@ -1,10 +1,15 @@
 {
     "autoload": {
         "files": ["config.php", "functions.php"],
-        "classmap": ["Db.php" , "DbHandler.php"]
+        "classmap": ["Db.php" , "DbHandler.php"],
+        "psr-4": {
+            "App\\": "App/"
+        }
     },
     "require": {
-        "illuminate/database": "^10.46"
+        "illuminate/database": "^10.46",
+        "php2wsdl/php2wsdl": "^0.7.0",
+        "php": "^8.0.0"
     }
 }
 
